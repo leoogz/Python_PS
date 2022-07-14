@@ -1,1 +1,1 @@
-#Ploblem Solving solutions written by Python
+# Ploblem Solving solutions written by Python
