@@ -38,7 +38,7 @@ def flood(F, m):
         for d in dir:
             nR = f[0] + d[0]
             nC = f[1] + d[1]
-            if m[nR][nC] == '.' or m[nR][nC] == 'D':
+            if m[nR][nC] == '.':
                 m[nR][nC] = '*'
                 F.appendleft((nR, nC))
     return
