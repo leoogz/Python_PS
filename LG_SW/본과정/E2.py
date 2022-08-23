@@ -18,6 +18,7 @@ N, map_field = Input_Data()
 
 # 여기서부터 작성
 _max = 0
+
 for i in range(1, N+1):
     for j in range(1, N+1):
         _max = max(_max, map_field[i][j])
